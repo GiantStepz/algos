@@ -1,4 +1,4 @@
-// LC 872. Leaf-Similar Trees
+// LC 872. Leaf-Similar Trees **DFS**
 
 /**
  * Definition for a binary tree node.
