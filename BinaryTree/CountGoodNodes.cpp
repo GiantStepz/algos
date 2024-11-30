@@ -20,11 +20,10 @@ public:
         return count;
     }
 
-    void dfs(TreeNode* root, int& maxVal) {
+    void dfs(TreeNode* root, int maxVal) {
         if(root == nullptr) return;
         
         if(root->val >= maxVal) {
-            // maxVal = root->val;
             count++;
         }
 	// If statement so maxVal does not include leaf nodes
